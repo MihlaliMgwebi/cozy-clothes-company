@@ -1,5 +1,5 @@
 ---
-name: Story
+name: User Story
 about: Issue for user stories
 title: ''
 labels: story
@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Epic:
+Feature:
 
 ### Description
 

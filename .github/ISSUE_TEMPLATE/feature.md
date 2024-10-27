@@ -1,5 +1,5 @@
 ---
-name: feat
+name: Feature
 about: Issue for features
 title: ''
 labels: feat
