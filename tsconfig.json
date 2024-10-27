@@ -22,7 +22,23 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@abstractions/*": ["app/abstractions/*"],
+      "@api/*": ["app/api/*"],
+      "@assets/*": ["assets/*"],
+      "@components/*": ["app/components/*"],
+      "@constants": ["app/constants/index.ts"],
+      "@directives/*": ["app/directives/*"],
+      "@env": ["environments/environment.ts"],
+      "@guards/*": ["app/guards/*"],
+      "@pages/*": ["app/pages/*"],
+      "@pipes/*": ["app/pipes/*"],
+      "@resolvers/*": ["app/resolvers/*"],
+      "@styles/*": ["app/styles/base/_global.scss"],
+      "@state/*": ["app/state/*"],
+      "@utils/*": ["app/utils/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
