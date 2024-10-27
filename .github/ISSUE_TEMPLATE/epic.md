@@ -2,7 +2,7 @@
 name: Epic
 about: Issue for epics
 title: ''
-labels: epic, story
+labels: epic
 assignees: ''
 
 ---
