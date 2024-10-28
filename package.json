@@ -10,7 +10,8 @@
     "test": "ng test",
     "serve:ssr:cozy-clothes-company": "node dist/cozy-clothes-company/server/server.mjs",
     "storybook": "ng run cozy-clothes-company:storybook",
-    "build-storybook": "ng run cozy-clothes-company:build-storybook"
+    "build-storybook": "ng run cozy-clothes-company:build-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_6f36fe249971728"
   },
   "private": true,
   "dependencies": {
