@@ -23,6 +23,7 @@
       "ES2022",
       "dom"
     ],
+    "baseUrl": "src",
     "paths": {
       "@abstractions/*": ["app/abstractions/*"],
       "@api/*": ["app/api/*"],
