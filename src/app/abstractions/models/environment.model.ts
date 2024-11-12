@@ -1,5 +1,5 @@
 export interface IEnvironment {
   production: boolean;
-  apiUrl: string;
-  debug: boolean;
+  apiUrl?: string;
+  webUrl?: string;
 }

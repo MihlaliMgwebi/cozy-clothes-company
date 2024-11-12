@@ -6,5 +6,6 @@
 
   // Environment variables
   window["env"]["apiUrl"] = "";
-  window["env"]["production"] = false;
+  window["env"]["debug"] = true;
+  window["env"]["webUrl"] = "";
 })(this);
