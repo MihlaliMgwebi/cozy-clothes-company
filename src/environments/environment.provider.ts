@@ -8,8 +8,6 @@ export default function getEnv(
   name: EnvironmentKeyType,
   defaultValue?: string,
 ): string | undefined {
-  if (typeof window !== 'undefined' && window['env'])
-    console.log(window['env']);
   return typeof window !== 'undefined' && window['env']
     ? window['env'][name] || defaultValue
     : defaultValue;
