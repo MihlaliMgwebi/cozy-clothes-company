@@ -1,0 +1,50 @@
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "bundler",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "@abstractions/*": ["app/abstractions/*"],
+      "@api/*": ["app/api/*"],
+      "@assets/*": ["assets/*"],
+      "@components/*": ["app/components/*"],
+      "@constants": ["app/constants/index.ts"],
+      "@directives/*": ["app/directives/*"],
+      "@env": ["environments/environment.ts"],
+      "@guards/*": ["app/guards/*"],
+      "@pages/*": ["app/pages/*"],
+      "@pipes/*": ["app/pipes/*"],
+      "@resolvers/*": ["app/resolvers/*"],
+      "@styles/*": ["app/styles/base/_global.scss"],
+      "@state/*": ["app/state/*"],
+      "@utils/*": ["app/utils/*"],
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
