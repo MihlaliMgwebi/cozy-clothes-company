@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Automatic Node Version Switching
    ```bash
-   nvm use 18.20
+   nvm install 18.20 && nvm use
    ```
 4. Install NPM packages
    ```bash
@@ -51,7 +51,8 @@ To get a local copy up and running follow these simple steps.
 
 ## Features
 
-- Test Driven Development (TDD) using Jest for Unit Testing, Cypress for E2E Testing, Storybook for Component Testing and Chromatic for Visual Testing.
+- Test Driven Development (TDD) using Jest for Unit Testing, Cypress for E2E Testing, Storybook for Component Testing
+  and Chromatic for Visual Testing.
 - Integration of Fake Store API
 - User-friendly interface designed based on Figma designs.
 - Mobile-First Responsive Design
@@ -111,7 +112,8 @@ Here’s a summary of the endpoints used in the Fake Store API based on the prov
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
+Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)

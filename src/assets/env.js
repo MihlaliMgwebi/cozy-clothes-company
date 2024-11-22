@@ -1,4 +1,4 @@
-// https://pumpingco.de/blog/environment-variables-angular-docker/
+// [Dynamically set Angular Environment Variables in Docker](https://pumpingco.de/blog/environment-variables-angular-docker/)
 
 // This JavaScript function defines our future environment variables.
 (function (window) {
