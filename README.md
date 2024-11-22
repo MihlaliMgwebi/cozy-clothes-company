@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Automatic Node Version Switching
    ```bash
-   nvm use 18.20
+   nvm install 18.20 && nvm use
    ```
 4. Install NPM packages
    ```bash
